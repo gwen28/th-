@@ -1,0 +1,126 @@
+/* Global*/
+
+.container h2{
+  margin-top:25px;
+text-align: center;
+}  
+
+
+p{
+ margin-right:19px;
+}
+h1
+{
+  font-family:"lato","arial","sans sherif";
+  text-transform:uppercase;
+  letter-spacing:-1px;
+  font-weight:300;
+  word-spacing:8px;
+  
+}
+h2{
+  font-family:"lato","arial","sans sherif";
+  font-size:320%;
+  margin-top:48px;
+  text-align:center;
+  margin-bottom:30px;
+}
+h2:after {
+  display:block;
+  height:2px;
+  background-color:green;
+  width:100px;
+  content:"";
+  margin: 0 auto;
+  margin-top:10px;
+  
+}
+h3{
+  font-family:"lato","arial","sans sherif";
+  font-size:160%;
+}
+p{
+  font-size:12px;
+}
+
+/* header*/
+header{
+   background-image:linear-gradient(to right, transparent, mistyrose),
+     url("https://gwen28.github.io/the/2469321.jpg");
+    
+  height:100vh;
+  background-position:center;
+  background-size:cover;
+  
+}
+
+.home_title{
+  position: absolute;
+  top:130px;  
+}
+.home_title h1{
+  font-size: 340%;
+}
+.home_title h1 span{
+  font-weight: 700;
+  color:green;
+}
+.home_title p{
+  font-family:lato;
+}
+a{
+ padding:18px;
+}
+/*boutons*/
+.btn1{
+  display:inline-block;
+  text-decoration:none;
+  border-radius:20px;
+  color:white;
+  transition:background color 1s;
+  
+}
+.btn2{
+  margin-left:25px;
+  color: black;
+  display:inline-block;
+  text-decoration:none;
+}
+.btn-full{
+  background-color:green;
+}
+.btn-ghost{
+ padding:10px;
+  border: 1px solid white;
+}
+.btn-full:hover{
+  background-color:blue;
+}
+.btn-ghost:hover{
+  background-color:blue;
+}
+.produits-img{
+  max-width:100%;
+  height:auto;
+}
+.icon{
+  font-size:34px;
+  color:green;
+  transition: all 1s;
+}
+
+.produits-plus:hover .icon{
+  color: blue;
+  transform:translatex(20px);
+}
+.produits-plus{
+  margin:20px;
+}
+
+.galeries-img {
+    display: block; 
+    background-size: cover;
+    background-position: top center;
+    height: 300px;
+    background-repeat: no-repeat;
+}
